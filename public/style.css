@@ -417,21 +417,10 @@ html {
       height: 100%;
     }
   
-    .sliderTitle{
-      display: none;
-    }
+ 
+    
   
-    .sliderPrice{
-      top: unset;
-      bottom: -50;
-      left: 0;
-      background-color: lightgrey;
-    }
-  
-    .buyButton{
-      right: 0;
-      top: 0;
-    }
+   
   
     .features{
       flex-direction: column;
@@ -457,11 +446,7 @@ html {
       text-align: center;
       position: relative;
       top: 0;
-    }
-  
-    .productTitle{
-      font-size: 50px;
-      margin: 0;
+   
     }
   
     .gallery{
@@ -493,8 +478,34 @@ html {
       background-color: whitesmoke;
     }
   
-    .payment{
-      width: 90%;
-      padding: 20px;
-    }
+    .wp-caption {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        }
+        .wp-caption img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        }
+        .wp-caption-text {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        left: 0;
+        bottom: 0;
+        padding: 0.75em 1em;
+        font-weight: 700;
+        z-index: 2;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,.7);
+        -webkit-transition: opacity .3s ease-in-out;
+        transition: opacity .3s ease-in-out;
+        }
+        .wp-caption:hover .wp-caption-text {
+        opacity: 1;
+        }
+   
   }
