@@ -4,9 +4,9 @@ import React from "react";
 const About = () => {
   return (
     <div>
-    <h3 class="nsTitle">_______________________________ABOUT US_____________________________</h3>
-    <p> .........................................We are a non-governmental orgarnization committed  to improving human welface and advocacy.........................................</p>
-     <b> ______________________________________________________Our Partners______________________________________________________</b>
+    <h3 class="nsTitle">_______________________ABOUT US_________________________</h3>
+    <p> <b>We are a non-governmental orgarnization committed  to improving human welface and advocacy</b></p>
+     <b> ___________________________________________________________________Our Partners_________________________________________________________________</b>
      
     
 
