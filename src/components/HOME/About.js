@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
     <h3 class="nsTitle">_______________________________ABOUT US_____________________________</h3>
-    <p>class="productDesc".........................................We are a non-governmental orgarnization committed  to improving human welface and advocacy.........................................</p>
+    <p> .........................................We are a non-governmental orgarnization committed  to improving human welface and advocacy.........................................</p>
      <b> ______________________________________________________Our Partners______________________________________________________</b>
      
     
