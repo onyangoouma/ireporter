@@ -13,7 +13,7 @@ function SignIn() {
 
 const App = styled.div`
 text-align: center;
-background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('images/back.gif');
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./images/back.gif');
 background-size: contain;
 `
 const Styledlabel = styled.label`
@@ -139,10 +139,10 @@ return (
   </select>
 
 <Styledlabel><label className="label"> Username</label></Styledlabel>
-<Styledinput  input ref={ref} className="input" defaultvalue={name} type="text" />
+<Styledinput  input ref={ref} onChange={handleName} className="input" defaultvalue={name} type="text" />
 
 <Styledlabel><label className="label">Password</label></Styledlabel>
-< Styledinput input ref={ref}  className="input"
+< Styledinput input ref={ref} onChange={handlePassword} className="input"
 defaultvalue={password} type="password" />
 
 

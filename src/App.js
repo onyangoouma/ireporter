@@ -7,19 +7,42 @@ import Cases from "./components/HOME/Cases";
 import Partners from "./components/HOME/Partners";
 import CreateAccount from './components/SignupSignin/CreateAccount';  
 import SignIn from './components/SignupSignin/SignIn';
+import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Router>
+        <Routes>
+        <Route exact path="/" element={
+          <div>
+        <Navbar/>
+        <Slide/>
+        <About/>
+        <Partners/>
+        <Footer/>
+        </div>
+        }/>
+        <Route exact path="/slider" element={<Slide/>}/>
+        <Route exact path="/about" element={<About/>}/>
+        <Route exact path="/partners" element={<Partners/>}/>
+        <Route exact path="/cases" element={<Cases/>}/>
+        <Route exact path="/footer" element={<Footer/>}/>
+        </Routes>
+        <Routes>
+        <Route exact path="/signin" element={<SignIn/>}/>
+        <Route exact path="/signup" element={<CreateAccount/>}/>
+        </Routes>
+      </Router>
+      {/* <Navbar/>
       <Slide/>
       <About/>
       <Partners/>
       <Cases/>
       <Footer/>
       <CreateAccount/>
-      <SignIn/>
+      <SignIn/> */}
     </div>
   );
 }

@@ -18,29 +18,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.search {
-  display: flex;
-  align-items: center;
-  background-color: rgb(21, 210, 125);
-  padding: 10px 20px;
-  border-radius: 10px;
-}
-
-.searchInput {
-  border: none;
-  background-color: transparent;
-}
-
-.searchInput::placeholder {
-  color: rgb(245, 13, 13);
+  background-color: #111;
 }
 
 .limitedOffer {
   font-size: 20px;
   border-bottom: 2px solid rgb(232, 44, 23);
   cursor: pointer;
+  color: whitesmoke;
 }
 
 .navBottom {
@@ -98,7 +83,9 @@ nav {
   z-index: 1;
 }
 
-
+.about_section {
+  text-align: center;
+}
 
 
 .buyButton:hover {

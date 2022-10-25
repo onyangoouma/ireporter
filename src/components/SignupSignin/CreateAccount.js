@@ -1,4 +1,4 @@
-import { useState } from "react";  
+import { useState} from "react";  
 import styled from 'styled-components';
 
 
@@ -11,7 +11,7 @@ function CreateAccount() {
 
 const App = styled.div`
 text-align: center;
-background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('images/back.gif');
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./images/back.gif');
 background-size: contain;
 `
 const Styledlabel = styled.label`
@@ -67,7 +67,12 @@ const [password, setPassword] = useState("");
 const [submitted, setSubmitted] = useState(false);
 const [error, setError] = useState(false);
 
+
 // Handling the name change
+const handleName = (e) => {
+setName(e.target.value);
+};
+
 
 
 // Handling the email change
@@ -123,7 +128,7 @@ return (
 
 <div>
   <App className="form">
-<div><h1><img src='../images/mkono.png' alt="" width={100} height={100} /></h1></div>
+<Imagepositioning><h1><img src='../images/mkono.png' alt="" width={100} height={100} /></h1></Imagepositioning>
 {/* Calling to the methods */}
 <Styledmessages className="messages">
 {errorMessage()}
@@ -132,21 +137,20 @@ return (
 <form>
 {/* Labels and inputs for form data */}
 <Styledlabel><label className="label"> Username</label></Styledlabel>
-<Styledinput  input  className="input"
-defaultvalue={name} type="text" />
+<Styledinput  input  className="input" onChange={handleName} defaultvalue={name} type="text" />
 
 <Styledlabel><label className="label">Email</label></Styledlabel>
-< Styledinput input   className="input" defaultvalue={email} type="email" />
+< Styledinput input   className="input"  onChange={handleEmail} defaultvalue={email} type="email" />
 
 <Styledlabel><label className="label">Phone Number</label></Styledlabel>
-< Styledinput input   className="input"  type="number" />
+< Styledinput input   className="input" onChange={handleEmail}  type="number" />
 
 
 <Styledlabel><label className="label">Password</label></Styledlabel>
-< Styledinput input   className="input" defaultvalue={password} type="password" />
+< Styledinput input   className="input" defaultvalue={password} onChange={handlePassword} type="password" />
 
 <Styledlabel><label className="label">Password Confirmation</label></Styledlabel>
-< Styledinput input   className="input" defaultvalue={password} type="password" />
+< Styledinput input   className="input" defaultvalue={password} onChange={handlePassword} type="password" />
 
 
 <Styledbutton onClick={handleSubmit} className="btn" type="submit">
