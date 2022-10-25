@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import styled from "styled-components"
+import styled from "styled-components";
+
 
 const Partners = () => {
   const Grid = styled.div`
@@ -64,7 +65,7 @@ const Partners = () => {
     </div>
 </Grid>
 <Link  to="/signup" className="productButton"> create case </Link> 
-
+{/* <Link to="/" className="nsButton">HOME</Link> */}
   </div> 
   );
 };

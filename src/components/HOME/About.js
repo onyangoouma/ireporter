@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 
 const About = () => {
@@ -6,7 +7,7 @@ const About = () => {
     <div>
       <div className="about_section">
     <h3 class="nsTitle">ABOUT US</h3>
-    <p> <b>We are a non-governmental orgarnization committed  to improving human welface and advocacy</b></p></div>
+    <p> <b>An organisation advancing social justice in communities and among university students</b></p></div>
 
 <div className="about_section">
      <h3>OUR PARTNER</h3>
@@ -29,7 +30,9 @@ const About = () => {
         </div>
  
     </div> 
+    {/* <Link to="/" className="nsButton">HOME</Link> */}
     </div>
+   
   );
 
 };

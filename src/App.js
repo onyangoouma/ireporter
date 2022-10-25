@@ -11,7 +11,7 @@ import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import Testimonials from './components/HOME/Testimonials';
 
 
-function Appp() {
+function App() {
   return (
     <div>
       <Router>
@@ -41,4 +41,4 @@ function Appp() {
   );
 }
 
-export default Appp;
+export default App;
