@@ -2,11 +2,6 @@ import { useState} from "react";
 import styled from 'styled-components';
 
 
-
-
-
-
-
 function CreateAccount() {
 
 const App = styled.div`
@@ -63,16 +58,16 @@ display: block;
 const [name, setName] = useState("");
 const [email, setEmail] = useState("");
 const [password, setPassword] = useState("");
-
+console.log(name);
 // States for checking the errors
 const [submitted, setSubmitted] = useState(false);
 const [error, setError] = useState(false);
 
 
 // Handling the name change
-const handleName = (e) => {
-setName(e.target.value);
-};
+// const handleName = (e) => {
+// setName(e.target.value);
+// };
 
 
 
@@ -138,7 +133,7 @@ return (
 <form>
 {/* Labels and inputs for form data */}
 <Styledlabel><label className="label"> Username</label></Styledlabel>
-<Styledinput  input  className="input"  defaultvalue={name} type="text" />
+<Styledinput  input  className="input" onChange={(e)=>setName(e.target.value)}  type="text" />
 
 <Styledlabel><label className="label">Email</label></Styledlabel>
 < Styledinput input   className="input"   defaultvalue={email} type="email" />
