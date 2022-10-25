@@ -18,6 +18,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   background-color: #111;
 }
 .navBottom  {
@@ -26,14 +27,35 @@ list-style: none;
 
 }
 
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(21, 210, 125);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+}
+
+.searchInput::placeholder {
+  color: rgb(245, 13, 13);
+}
+
 
 .limitedOffer {
   font-size: 20px;
   border-bottom: 2px solid rgb(232, 44, 23);
   cursor: pointer;
+
   color: navajowhite;
   position: relative;
   right: 50px;
+
 
 }
 
@@ -47,7 +69,8 @@ list-style: none;
   margin-right: 50px;
   cursor: pointer;
   color: lightgray;
-  font-weight: 900;
+  font-weight: 400;
+
 }
 
 .slider {
@@ -92,6 +115,7 @@ list-style: none;
   z-index: 1;
 }
 
+
 .about_section {
   text-align: center;
 }
@@ -101,6 +125,16 @@ list-style: none;
   background-color: white;
   color: black;
 }
+
+
+
+
+
+.buyButton:hover {
+  background-color: white;
+  color: black;
+}
+
 
 .sliderItem:nth-child(1) .sliderBg {
   background-color: #369e62;
@@ -225,12 +259,22 @@ label {
   right: 0;
   width: 40%;
   padding: 50px;
+
 }
 
 .productTitle {
   font-size: 75px;
   font-weight: 900;
 }
+
+
+}
+
+.productTitle {
+  font-size: 75px;
+  font-weight: 900;
+}
+
 
 .productDesc {
   font-style: 24px;
@@ -298,7 +342,11 @@ label {
 
 .nsItem {
   flex: 1;
+
   background-color:grey;
+
+  background-color: black;
+
   color: white;
   display: flex;
   flex-direction: column;
@@ -355,6 +403,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .footerRightMenu{
   position: relative;
   left: 0px;
@@ -508,6 +557,5 @@ footer {
       opacity: 1;
       }
     
-   
  
 }
