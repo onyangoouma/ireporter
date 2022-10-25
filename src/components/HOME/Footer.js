@@ -9,7 +9,7 @@ const Footer= () => {
             
             <div class="footerMenu">
 
-                <img src="./images/logo1.png" width={50} height={40}/>
+                <img src="./images/mkono.png" width={50} height={40}/>
                 <h1 class="fMenuTitle">About Us</h1>
                 <ul class="fList">
                     <li class="fListItem">Company</li>
@@ -45,15 +45,15 @@ const Footer= () => {
 
         <div class="footerRight">
 
-            <div class="footerRightMenu">
+            {/* <div class="footerRightMenu">
                 <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
                 <div class="fMail">
                     <input type="text" placeholder="your@email.com" class="fInput"/>
                     <button class="fButton">Join us now!</button>
                 </div>
-            </div>
+            </div> */}
 
-            <div class="footerRightMenu">
+            {/* <div class="footerRightMenu">
                 <h1 class="fMenuTitle">Follow Us on our socials</h1>
                 <div class="fIcons">
                     <img src="https://i.pinimg.com/236x/59/8c/ae/598cae0d99a402d8c8501151305dcfdf.jpg" alt="" class="fIcon"/>
@@ -65,7 +65,7 @@ const Footer= () => {
                     <img src="https://i.pinimg.com/236x/72/af/ce/72afce0390483373f832588032fc8efe.jpg" alt="" class="fIcon"/>
                     <p>whatsapp</p>
                 </div>
-            </div>
+            </div> */}
             
             <div class="footerRightMenu">
                 <span class="copyright">@2022 ireporter. All rights reserved. we rspect your privacy ,by using our site ,you agree to our terms .</span>

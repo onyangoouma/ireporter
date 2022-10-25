@@ -13,13 +13,13 @@ function SignIn() {
 
 const App = styled.div`
 text-align: center;
-background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./images/back.gif');
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('https://content.presentermedia.com/content/animsp/00004000/4786/kenya_flag_perspective_anim_300_wht.gif');
 background-size: contain;
 `
 const Styledlabel = styled.label`
 display: block;
 font-size: larger;
-color: white;
+color: #00171F;
 padding: 5px;
 `
 const Styledinput = styled.input`

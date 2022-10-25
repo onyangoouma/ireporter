@@ -11,8 +11,9 @@ function CreateAccount() {
 
 const App = styled.div`
 text-align: center;
-background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./images/back.gif');
-background-size: contain;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('https://content.presentermedia.com/content/animsp/00004000/4786/kenya_flag_perspective_anim_300_wht.gif');
+background-repeat: no;
+
 `
 const Styledlabel = styled.label`
 display: block;

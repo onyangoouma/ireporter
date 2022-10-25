@@ -20,12 +20,21 @@ nav {
   justify-content: space-between;
   background-color: #111;
 }
+.navBottom  {
+background-color: #111;
+list-style: none;
+
+}
+
 
 .limitedOffer {
   font-size: 20px;
   border-bottom: 2px solid rgb(232, 44, 23);
   cursor: pointer;
-  color: whitesmoke;
+  color: navajowhite;
+  position: relative;
+  right: 50px;
+
 }
 
 .navBottom {
@@ -38,7 +47,7 @@ nav {
   margin-right: 50px;
   cursor: pointer;
   color: lightgray;
-  font-weight: 400;
+  font-weight: 900;
 }
 
 .slider {
@@ -289,7 +298,7 @@ label {
 
 .nsItem {
   flex: 1;
-  background-color: black;
+  background-color:grey;
   color: white;
   display: flex;
   flex-direction: column;
@@ -345,6 +354,10 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.footerRightMenu{
+  position: relative;
+  left: 0px;
 }
 
 .fInput {
@@ -494,5 +507,7 @@ footer {
       .wp-caption:hover .wp-caption-text {
       opacity: 1;
       }
+    
+   
  
 }
