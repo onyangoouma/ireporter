@@ -18,6 +18,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  background-color: #111;
+}
+.navBottom  {
+background-color: #111;
+list-style: none;
+
+}
+
 }
 
 .search {
@@ -37,10 +46,17 @@ nav {
   color: rgb(245, 13, 13);
 }
 
+
 .limitedOffer {
   font-size: 20px;
   border-bottom: 2px solid rgb(232, 44, 23);
   cursor: pointer;
+
+  color: navajowhite;
+  position: relative;
+  right: 50px;
+
+
 }
 
 .navBottom {
@@ -54,6 +70,7 @@ nav {
   cursor: pointer;
   color: lightgray;
   font-weight: 400;
+
 }
 
 .slider {
@@ -99,12 +116,25 @@ nav {
 }
 
 
+.about_section {
+  text-align: center;
+}
 
 
 .buyButton:hover {
   background-color: white;
   color: black;
 }
+
+
+
+
+
+.buyButton:hover {
+  background-color: white;
+  color: black;
+}
+
 
 .sliderItem:nth-child(1) .sliderBg {
   background-color: #369e62;
@@ -229,12 +259,22 @@ label {
   right: 0;
   width: 40%;
   padding: 50px;
+
 }
 
 .productTitle {
   font-size: 75px;
   font-weight: 900;
 }
+
+
+}
+
+.productTitle {
+  font-size: 75px;
+  font-weight: 900;
+}
+
 
 .productDesc {
   font-style: 24px;
@@ -302,7 +342,11 @@ label {
 
 .nsItem {
   flex: 1;
+
+  background-color:grey;
+
   background-color: black;
+
   color: white;
   display: flex;
   flex-direction: column;
@@ -358,6 +402,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.footerRightMenu{
+  position: relative;
+  left: 0px;
 }
 
 .fInput {
@@ -507,5 +556,6 @@ footer {
       .wp-caption:hover .wp-caption-text {
       opacity: 1;
       }
+    
  
 }
