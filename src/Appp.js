@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar  from '../src/components/HOME/Navbar';
+import Navbar  from './components/HOME/Navbar';
 import Slide from "./components/HOME/Slide";
 import Footer from "./components/HOME/Footer";
 import About from "./components/HOME/About";
@@ -11,7 +11,7 @@ import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import Testimonials from './components/HOME/Testimonials';
 
 
-function App() {
+function Appp() {
   return (
     <div>
       <Router>
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Appp;
