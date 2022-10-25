@@ -23,10 +23,14 @@ nav {
 .navBottom  {
 background-color: #111;
 list-style: none;
-
+}
+.navBottom li:hover{
+  background-color: grey; 
 }
 
-
+.menuItem{
+  text-decoration: none;
+}
 .limitedOffer {
   font-size: 20px;
   border-bottom: 2px solid rgb(232, 44, 23);

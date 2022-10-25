@@ -15,10 +15,10 @@ function App() {
   return (
     <div>
       <Router>
+        <Routes><Route exact path="*" element={<Navbar/>}/></Routes>
         <Routes>
         <Route exact path="/" element={
           <div>
-        <Navbar/>
         <Slide/>
         <About/>
         <Partners/>
