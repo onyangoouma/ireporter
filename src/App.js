@@ -3,8 +3,8 @@ import Navbar  from './components/HOME/Navbar';
 import Slide from "./components/HOME/Slide";
 import Footer from "./components/HOME/Footer";
 import About from "./components/HOME/About";
-import Cases from "./components/HOME/Testimonials";
-import Partners from "./components/HOME/Partners";
+import Cases from './components/HOME/Cases';
+import Partners from './components/HOME/Partners';
 import CreateAccount from './components/SignupSignin/CreateAccount';  
 import SignIn from './components/SignupSignin/SignIn';
 import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
@@ -22,6 +22,7 @@ function App() {
         <Slide/>
         <About/>
         <Partners/>
+        <Cases/>
         <Footer/>
         </div>
         }/>

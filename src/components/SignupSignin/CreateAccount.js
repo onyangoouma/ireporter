@@ -138,20 +138,20 @@ return (
 <form>
 {/* Labels and inputs for form data */}
 <Styledlabel><label className="label"> Username</label></Styledlabel>
-<Styledinput  input  className="input" onChange={handleName} defaultvalue={name} type="text" />
+<Styledinput  input  className="input"  defaultvalue={name} type="text" />
 
 <Styledlabel><label className="label">Email</label></Styledlabel>
-< Styledinput input   className="input"  onChange={handleEmail} defaultvalue={email} type="email" />
+< Styledinput input   className="input"   defaultvalue={email} type="email" />
 
 <Styledlabel><label className="label">Phone Number</label></Styledlabel>
-< Styledinput input   className="input" onChange={handleEmail}  type="number" />
+< Styledinput input   className="input"  type="number" />
 
 
 <Styledlabel><label className="label">Password</label></Styledlabel>
-< Styledinput input   className="input" defaultvalue={password} onChange={handlePassword} type="password" />
+< Styledinput input   className="input" defaultvalue={password}  type="password" />
 
 <Styledlabel><label className="label">Password Confirmation</label></Styledlabel>
-< Styledinput input   className="input" defaultvalue={password} onChange={handlePassword} type="password" />
+< Styledinput input   className="input" defaultvalue={password} type="password" />
 
 
 <Styledbutton onClick={handleSubmit} className="btn" type="submit">
