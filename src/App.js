@@ -23,6 +23,7 @@ function App() {
         <About/>
         <Partners/>
         <Cases/>
+        <Testimonials/>
         <Footer/>
         </div>
         }/>
